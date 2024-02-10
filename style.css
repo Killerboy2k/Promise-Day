@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(221, 217, 217);
+    font-family: 'Montserrat', sans-serif;
+}
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url(/TributePage/wp2622504.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;  
+
+}
+
+.first {
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    font-size: 16px;
+    padding: 15px;
+    
+}
+
+.pc {
+    font-size: 70px;
+    font-family: 'IM Fell Double Pica', serif;
+    font-weight: 700;
+    padding-bottom: 80px;
+}
+
+.journey{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: brown; */
+    padding: 50px;
+}
+
+.heading{
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(22, 5, 5);
+    margin: 35px;
+}
+
+/* .quote{
+    padding: 15px;
+    font-size: 25px;
+    font-family: 'IM Fell Double Pica', serif;
+    font-weight: 550;
+} */
+
+.section1 {
+    display: flex;
+    width: 80%;
+    min-height: 70vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding-left: 50px ;
+    
+}
+
+.left {
+    padding-right: 40px;
+    padding-left: 30px;
+}
+
+.right {
+    padding: 0px 30px;
+    color: rgba(77, 74, 74, 0.842);
+    font-weight: 600;   
+}
+
+.owner {
+    font-family: 'IM Fell Double Pica', serif;
+    font-size: 25px;
+    font-weight: 600;
+    display: block;
+    padding: 15px 0px;
+    color: rgb(34, 24, 24);
+}
+
+.tag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/TributePage/WhatsApp\ Image\ 2022-02-11\ at\ 22.00.24.jpeg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+.overlay {
+    background-color: rgba(0, 0, 0, 0.24);
+    /* opacity: 30%; */
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+    border: 2px solid rgba(75, 73, 73, 0.658);
+    border-radius: 15px;
+    min-height: 310px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    transition: 500ms;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+.subheading {
+    font-family: 'IM Fell Double Pica', serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgba(43, 22, 18, 0.897);
+    padding: 5px 0px; 
+}
+
+.desciption {
+    font-weight: 600;
+    font-size: 18;
+    color: rgba(41, 38, 38, 0.623);
+}
+
+.picture {
+    width: 35%;
+    border-radius: 100px;
+    margin: 10px 0px;
+}
+
+.last{
+
+}
